@@ -50,7 +50,7 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         
         
-        /***********************************************************************************************//*
+
 		if (checkSDCard()) {
 			if (Config.init().isFirstRun()) {
 				final ProgressDialog pd = new ProgressDialog(this);
@@ -90,7 +90,7 @@ public class MainActivity extends FragmentActivity {
 					.show();
 			finish();
 		}
-		*//***********************************************************************************************/
+
                 
         setContentView(R.layout.activity_tab);
         mTabHost = (TabHost)findViewById(android.R.id.tabhost);

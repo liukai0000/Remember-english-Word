@@ -6,11 +6,11 @@
                 {
                     "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/dialog_wait.xml",
                     "from": {
-                        "startLines": "3,5,-1",
-                        "startColumns": "4,4,-1",
-                        "startOffsets": "106,165,-1",
-                        "endColumns": "50,53,-1",
-                        "endOffsets": "152,214,-1"
+                        "startLines": "3,5,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "106,165,55",
+                        "endColumns": "50,53,50",
+                        "endOffsets": "152,214,101"
                     },
                     "to": {
                         "startLines": "8,9,10",
@@ -23,9 +23,11 @@
                 {
                     "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/dialog_exit.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1"
+                        "startLines": "3,4,7,5,2",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "101,156,275,209,55",
+                        "endColumns": "54,52,59,52,45",
+                        "endOffsets": "151,204,330,257,96"
                     },
                     "to": {
                         "startLines": "3,4,5,6,7",
@@ -38,9 +40,11 @@
                 {
                     "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1"
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "17,67,120,171",
+                        "endColumns": "49,52,50,60",
+                        "endOffsets": "62,115,166,227"
                     },
                     "to": {
                         "startLines": "2,32,33,34",
@@ -53,9 +57,11 @@
                 {
                     "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/dir.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1"
+                        "startLines": "2,4,3,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,145,95,204",
+                        "endColumns": "39,58,49,55",
+                        "endOffsets": "90,199,140,255"
                     },
                     "to": {
                         "startLines": "28,29,30,31",
@@ -68,9 +74,11 @@
                 {
                     "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/styles.xml",
                     "from": {
-                        "startLines": "-1",
-                        "startColumns": "-1",
-                        "startOffsets": "-1"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "58",
+                        "endOffsets": "71"
                     },
                     "to": {
                         "startLines": "35",
@@ -83,9 +91,11 @@
                 {
                     "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/dictmanager_menu.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "12,15,3,9,6,11,14,2,8,5",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "502,629,117,373,243,440,565,55,307,180",
+                        "endColumns": "57,74,57,61,58,61,63,61,65,62",
+                        "endOffsets": "555,699,170,430,297,497,624,112,368,238"
                     },
                     "to": {
                         "startLines": "18,19,20,21,22,23,24,25,26,27",
@@ -98,9 +108,11 @@
                 {
                     "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/dict.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "2,8,3,5,6,4,7",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,381,96,192,261,142,328",
+                        "endColumns": "40,52,45,68,66,49,52",
+                        "endOffsets": "91,429,137,256,323,187,376"
                     },
                     "to": {
                         "startLines": "11,12,13,14,15,16,17",

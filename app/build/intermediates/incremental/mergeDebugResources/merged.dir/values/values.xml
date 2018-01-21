@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RememberWord</string>
+    <string name="dialog_message">是否真的要关闭程序 ？</string>
+    <string name="dialog_negativeButton">取消</string>
+    <string name="dialog_no_study_lesson">请先设置学习课程</string>
+    <string name="dialog_positiveButton">确定</string>
+    <string name="dialog_title">温馨提示</string>
+    <string name="dialog_wait_dis">加载中。。。</string>
+    <string name="dialog_wait_success">加载成功！</string>
+    <string name="dialog_wait_title">温馨提示</string>
+    <string name="dict_back">返回</string>
+    <string name="dict_count_words">正在计算单词数</string>
+    <string name="dict_set">点击设置其为字典</string>
+    <string name="dict_set_current_remember_dict">设置为要使用的词库</string>
+    <string name="dict_set_current_trans_dict">设置为查询使用的词库</string>
+    <string name="dict_set_up">是否将其设置为字典</string>
+    <string name="dict_set_up_success">设置成功</string>
+    <string name="dictmanager_dis_dictcode">null</string>
+    <string name="dictmanager_dis_dictdownload">http://google.com</string>
+    <string name="dictmanager_dis_dictpath">null</string>
+    <string name="dictmanager_dis_dictransetup">null</string>
+    <string name="dictmanager_dis_dictsetup">null</string>
+    <string name="dictmanager_title_dictcode">词库文件编码</string>
+    <string name="dictmanager_title_dictdownload">下载词库</string>
+    <string name="dictmanager_title_dictpath">词库目录设置</string>
+    <string name="dictmanager_title_dictransetup">查询词典设置</string>
+    <string name="dictmanager_title_dictsetup">背诵词库设置</string>
+    <string name="dir_back">返回</string>
+    <string name="dir_no_open">系统不支持直接打开未授权文件夹和文件</string>
+    <string name="dir_set_dict">长按设置词典路径</string>
+    <string name="dir_set_dict_up">是否将其设置为字典目录</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>

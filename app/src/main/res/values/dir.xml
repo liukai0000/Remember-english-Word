@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dir_back">返回</string>
+    <string name="dir_set_dict">长按设置词典路径</string>
+    <string name="dir_no_open">系统不支持直接打开未授权文件夹和文件</string>
+    <string name="dir_set_dict_up">是否将其设置为字典目录</string>
+</resources>

@@ -1,0 +1,121 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:1:1-38:12
+INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:1:1-38:12
+	package
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:2:5-39
+		INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:6:5-8:41
+INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:8:9-38
+		INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:7:9-34
+		INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml
+application
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:10:5-33:19
+	android:label
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:11:9-45
+	android:theme
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:13:9-40
+activity#com.example.rememberword.MainActivity
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:14:9-22:20
+	android:screenOrientation
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:16:57-93
+	android:label
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:16:13-56
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:15:13-40
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.firstpeople.wordlearn.dictmanager.DictListActivity
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:23:9-137
+	android:screenOrientation
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:23:89-125
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:23:19-88
+activity#com.firstpeople.wordlearn.dictmanager.DictManagerActivity
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:24:9-140
+	android:screenOrientation
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:24:92-128
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:24:19-91
+activity#com.firstpeople.wordlearn.dictmanager.DirSelectActivity
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:25:9-138
+	android:screenOrientation
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:25:90-126
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:25:19-89
+activity#com.example.rememberword.testGesture
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:26:9-57
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:26:19-45
+activity#com.example.rememberword.WordsNote_Activity
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:27:9-102
+	android:screenOrientation
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:27:54-90
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:27:19-53
+activity#com.example.rememberword.AllWords_Activity
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:28:9-101
+	android:screenOrientation
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:28:53-89
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:28:19-52
+activity#com.example.rememberword.KnowWell_Activity
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:29:9-63
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:29:19-51
+service#com.example.rememberword.ZdLockService
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:30:9-57
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:30:18-46
+activity#com.example.rememberword.LockScreen_Activity
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:31:9-65
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:31:19-53
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:34:2-78
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:34:19-75
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:35:2-88
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:35:19-69
+uses-permission#android.permission.VIBRATE
+ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:36:2-79
+	android:name
+		ADDED from /home/liukai/Desktop/RememberWord-master/app/src/main/AndroidManifest.xml:36:19-60

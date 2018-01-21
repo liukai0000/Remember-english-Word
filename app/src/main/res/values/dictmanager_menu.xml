@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dictmanager_title_dictpath">词库目录设置</string>
+    <string name="dictmanager_dis_dictpath">null</string>
+    
+    <string name="dictmanager_title_dictsetup">背诵词库设置</string>
+    <string name="dictmanager_dis_dictsetup">null</string>
+    
+    <string name="dictmanager_title_dictransetup">查询词典设置</string>
+    <string name="dictmanager_dis_dictransetup">null</string>
+    
+    <string name="dictmanager_title_dictcode">词库文件编码</string>
+    <string name="dictmanager_dis_dictcode">null</string>
+    
+    <string name="dictmanager_title_dictdownload">下载词库</string>
+    <string name="dictmanager_dis_dictdownload">http://google.com</string>
+    
+       
+</resources>

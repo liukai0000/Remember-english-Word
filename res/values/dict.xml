@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dict_back">返回</string>
+    <string name="dict_set">点击设置其为字典</string>
+    <string name="dict_set_up">是否将其设置为字典</string>
+    <string name="dict_set_current_remember_dict">设置为要使用的词库</string>
+    <string name="dict_set_current_trans_dict">设置为查询使用的词库</string>
+    <string name="dict_set_up_success">设置成功</string>
+    <string name="dict_count_words">正在计算单词数</string>
+    
+</resources>

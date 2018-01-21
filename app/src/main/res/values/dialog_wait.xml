@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_wait_title">温馨提示</string>
+    <string name="dialog_wait_dis">加载中。。。</string>
+       
+    <string name="dialog_wait_success">加载成功！</string>
+         
+</resources>

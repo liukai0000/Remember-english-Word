@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_wait_title">温馨提示</string>
+    <string name="dialog_wait_dis">鸭鸭：心急吃不了热包子(加载中)</string>
+       
+    <string name="dialog_wait_success">鸭鸭：热包子来了 @_@</string>
+         
+</resources>

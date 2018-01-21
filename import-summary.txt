@@ -1,0 +1,192 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/workspace.xml
+* README.md
+* app/
+* app/build.gradle
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/assets/
+* app/src/main/assets/dicts/
+* app/src/main/assets/dicts/cet4.csv
+* app/src/main/assets/dicts/cet6.csv
+* app/src/main/assets/dicts/gaokao.csv
+* app/src/main/assets/dicts/middleschool_1.csv
+* app/src/main/assets/dicts/middleschool_2.csv
+* app/src/main/assets/dicts/middleschool_3.csv
+* app/src/main/assets/dicts/middleschool_4.csv
+* app/src/main/assets/dicts/middleschool_5.csv
+* app/src/main/assets/dicts/middleschool_6.csv
+* app/src/main/assets/dicts/primaryschool_1.csv
+* app/src/main/assets/dicts/primaryschool_2.csv
+* app/src/main/assets/dicts/primaryschool_3.csv
+* app/src/main/assets/dicts/primaryschool_4.csv
+* app/src/main/assets/dicts/primaryschool_5.csv
+* app/src/main/assets/dicts/primaryschool_6.csv
+* app/src/main/assets/dicts/seniorschool_1_1.csv
+* app/src/main/assets/dicts/seniorschool_1_2.csv
+* app/src/main/assets/dicts/seniorschool_2_1.csv
+* app/src/main/assets/dicts/seniorschool_2_2.csv
+* app/src/main/assets/dicts/seniorschool_3_1.csv
+* app/src/main/assets/dicts/seniorschool_3_2.csv
+* app/src/main/assets/dicts/seniorshool_experiment_2_1.csv
+* app/src/main/assets/dicts/seniorshool_experiment_2_2.csv
+* app/src/main/assets/dicts/seniorshool_experiment_3_1.csv
+* app/src/main/assets/dicts/seniorshool_experiment_3_2.csv
+* app/src/main/assets/dicts/tofel.csv
+* app/src/main/assets/dicts/yasi.csv
+* app/src/main/assets/explain/
+* app/src/main/assets/explain/about.txt
+* app/src/main/assets/explain/help.txt
+* app/src/main/assets/explain/readme_sound.txt
+* app/src/main/assets/explain/readme_stardict.txt
+* app/src/main/assets/font/
+* app/src/main/assets/font/KingSoft-Phonetic-Android.ttf
+* app/src/main/assets/font/segeo.ttf
+* app/src/main/assets/stardict/
+* app/src/main/assets/stardict/stardict1.3.dict.jpg
+* app/src/main/assets/stardict/stardict1.3.idx
+* app/src/main/assets/stardict/stardict1.3.idx.oft
+* app/src/main/assets/stardict/stardict1.3.ifo
+* app/src/main/java/
+* app/src/main/java/au/
+* app/src/main/java/au/com/
+* app/src/main/java/au/com/bytecode/
+* app/src/main/java/au/com/bytecode/opencsv/
+* app/src/main/java/au/com/bytecode/opencsv/CSVReader.java
+* app/src/main/java/au/com/bytecode/opencsv/CSVWriter.java
+* app/src/main/java/com/
+* app/src/main/java/com/example/
+* app/src/main/java/com/example/rememberword/
+* app/src/main/java/com/example/rememberword/AllWords_Activity.java
+* app/src/main/java/com/example/rememberword/AllWords_Fragment.java
+* app/src/main/java/com/example/rememberword/KnowWell_Activity.java
+* app/src/main/java/com/example/rememberword/KnowWell_Fragment.java
+* app/src/main/java/com/example/rememberword/LockScreen_Activity.java
+* app/src/main/java/com/example/rememberword/MainActivity.java
+* app/src/main/java/com/example/rememberword/MainActivityBk.java
+* app/src/main/java/com/example/rememberword/MyRandom.java
+* app/src/main/java/com/example/rememberword/Setting_Fragment.java
+* app/src/main/java/com/example/rememberword/WordsNote_Activity.java
+* app/src/main/java/com/example/rememberword/WordsNote_Fragment.java
+* app/src/main/java/com/example/rememberword/ZdLockService.java
+* app/src/main/java/com/example/rememberword/testGesture.java
+* app/src/main/java/com/firstpeople/
+* app/src/main/java/com/firstpeople/wordlearn/
+* app/src/main/java/com/firstpeople/wordlearn/dictmanager/
+* app/src/main/java/com/firstpeople/wordlearn/dictmanager/DictListActivity.java
+* app/src/main/java/com/firstpeople/wordlearn/dictmanager/DictManagerActivity.java
+* app/src/main/java/com/firstpeople/wordlearn/dictmanager/DirSelectActivity.java
+* app/src/main/java/com/firstpeople/wordlearn/util/
+* app/src/main/java/com/firstpeople/wordlearn/util/Config.java
+* app/src/main/java/com/firstpeople/wordlearn/util/CsvHelper.java
+* app/src/main/java/com/firstpeople/wordlearn/util/GetCsvInfo.java
+* app/src/main/java/com/firstpeople/wordlearn/util/GetDictList.java
+* app/src/main/java/com/firstpeople/wordlearn/util/GetStarDictInfo.java
+* app/src/main/java/com/firstpeople/wordlearn/util/TtsSpeech.java
+* app/src/main/java/com/firstpeople/wordlearn/util/TtsSpeechCheck.java
+* app/src/main/java/com/firstpeople/wordlearn/util/Utils.java
+* app/src/main/res/
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/dictmanager_bg.jpg
+* app/src/main/res/drawable-hdpi/dictmanager_icon_dictcode.png
+* app/src/main/res/drawable-hdpi/dictmanager_icon_dictdownload.png
+* app/src/main/res/drawable-hdpi/dictmanager_icon_dictpath.png
+* app/src/main/res/drawable-hdpi/dictmanager_icon_dictransetup.png
+* app/src/main/res/drawable-hdpi/dictmanager_icon_dictsetup.png
+* app/src/main/res/drawable-hdpi/green.jpg
+* app/src/main/res/drawable-hdpi/ic_action_search.png
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-hdpi/light_blue.png
+* app/src/main/res/drawable-hdpi/star.jpg
+* app/src/main/res/drawable-ldpi/
+* app/src/main/res/drawable-ldpi/ic_launcher.png
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/ic_action_search.png
+* app/src/main/res/drawable-mdpi/ic_launcher.png
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/ic_action_search.png
+* app/src/main/res/drawable-xhdpi/ic_launcher.png
+* app/src/main/res/layout/
+* app/src/main/res/layout/activity_dictmanager.xml
+* app/src/main/res/layout/activity_main.xml
+* app/src/main/res/layout/activity_tab.xml
+* app/src/main/res/layout/allwords.xml
+* app/src/main/res/layout/knowwell.xml
+* app/src/main/res/layout/list_dictmanager_adapter.xml
+* app/src/main/res/layout/setting.xml
+* app/src/main/res/layout/show.xml
+* app/src/main/res/layout/showword.xml
+* app/src/main/res/layout/wordsnote.xml
+* app/src/main/res/menu/
+* app/src/main/res/menu/activity_main.xml
+* app/src/main/res/values/
+* app/src/main/res/values/dialog_exit.xml
+* app/src/main/res/values/dialog_wait.xml
+* app/src/main/res/values/dict.xml
+* app/src/main/res/values/dictmanager_menu.xml
+* app/src/main/res/values/dir.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* app/src/main/resources/
+* app/src/main/resources/com/
+* app/src/main/resources/com/example/
+* app/src/main/resources/com/example/rememberword/
+* app/src/main/resources/com/example/rememberword/MainActivityBk.bk
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* src/com/example/rememberword/MainActivityBk.bk => app/src/main/resources/com/example/rememberword/MainActivityBk.bk
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

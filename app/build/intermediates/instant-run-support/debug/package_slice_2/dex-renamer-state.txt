@@ -1,0 +1,4 @@
+#Sat Jan 20 21:51:25 CST 2018
+base.0=/home/liukai/Desktop/RememberWord-master/app/build/intermediates/transforms/dexMerger/debug/2
+renamed.0=classes.dex
+file.0=/home/liukai/Desktop/RememberWord-master/app/build/intermediates/transforms/dexMerger/debug/2/classes.dex

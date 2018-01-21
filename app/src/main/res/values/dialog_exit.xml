@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_title">温馨提示</string>
+    <string name="dialog_message">是否真的要关闭程序 ？</string>
+    <string name="dialog_negativeButton">取消</string>
+    <string name="dialog_positiveButton">确定</string>
+            
+    <string name="dialog_no_study_lesson">请先设置学习课程</string>
+</resources>

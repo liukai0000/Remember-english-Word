@@ -1,50 +1,14 @@
 {
     "logs": [
         {
-            "outputFile": "/home/liukai/Desktop/RememberWord-master/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "outputFile": "D:\\Android_project\\Remember-english-Word\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/dialog_wait.xml",
+                    "source": "D:\\Android_project\\Remember-english-Word\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
-                        "startLines": "3,5,2",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "106,165,55",
-                        "endColumns": "50,53,50",
-                        "endOffsets": "152,214,101"
-                    },
-                    "to": {
-                        "startLines": "8,9,10",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "372,423,477",
-                        "endColumns": "50,53,50",
-                        "endOffsets": "418,472,523"
-                    }
-                },
-                {
-                    "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/dialog_exit.xml",
-                    "from": {
-                        "startLines": "3,4,7,5,2",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "101,156,275,209,55",
-                        "endColumns": "54,52,59,52,45",
-                        "endOffsets": "151,204,330,257,96"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "105,160,213,273,326",
-                        "endColumns": "54,52,59,52,45",
-                        "endOffsets": "155,208,268,321,367"
-                    }
-                },
-                {
-                    "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "17,67,120,171",
-                        "endColumns": "49,52,50,60",
-                        "endOffsets": "62,115,166,227"
+                        "startLines": "-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "2,32,33,34",
@@ -55,13 +19,11 @@
                     }
                 },
                 {
-                    "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/dir.xml",
+                    "source": "D:\\Android_project\\Remember-english-Word\\app\\src\\main\\res\\values\\dir.xml",
                     "from": {
-                        "startLines": "2,4,3,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,145,95,204",
-                        "endColumns": "39,58,49,55",
-                        "endOffsets": "90,199,140,255"
+                        "startLines": "-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "28,29,30,31",
@@ -72,30 +34,26 @@
                     }
                 },
                 {
-                    "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/styles.xml",
+                    "source": "D:\\Android_project\\Remember-english-Word\\app\\src\\main\\res\\values\\dialog_wait.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "58",
-                        "endOffsets": "71"
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
                     },
                     "to": {
-                        "startLines": "35",
-                        "startColumns": "4",
-                        "startOffsets": "1906",
-                        "endColumns": "57",
-                        "endOffsets": "1959"
+                        "startLines": "8,9,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "372,423,477",
+                        "endColumns": "50,53,50",
+                        "endOffsets": "418,472,523"
                     }
                 },
                 {
-                    "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/dictmanager_menu.xml",
+                    "source": "D:\\Android_project\\Remember-english-Word\\app\\src\\main\\res\\values\\dictmanager_menu.xml",
                     "from": {
-                        "startLines": "12,15,3,9,6,11,14,2,8,5",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "502,629,117,373,243,440,565,55,307,180",
-                        "endColumns": "57,74,57,61,58,61,63,61,65,62",
-                        "endOffsets": "555,699,170,430,297,497,624,112,368,238"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "18,19,20,21,22,23,24,25,26,27",
@@ -106,13 +64,26 @@
                     }
                 },
                 {
-                    "source": "/home/liukai/Desktop/RememberWord-master/app/src/main/res/values/dict.xml",
+                    "source": "D:\\Android_project\\Remember-english-Word\\app\\src\\main\\res\\values\\dialog_exit.xml",
                     "from": {
-                        "startLines": "2,8,3,5,6,4,7",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "55,381,96,192,261,142,328",
-                        "endColumns": "40,52,45,68,66,49,52",
-                        "endOffsets": "91,429,137,256,323,187,376"
+                        "startLines": "-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "105,160,213,273,326",
+                        "endColumns": "54,52,59,52,45",
+                        "endOffsets": "155,208,268,321,367"
+                    }
+                },
+                {
+                    "source": "D:\\Android_project\\Remember-english-Word\\app\\src\\main\\res\\values\\dict.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "11,12,13,14,15,16,17",
@@ -120,6 +91,45 @@
                         "startOffsets": "528,569,622,668,737,804,854",
                         "endColumns": "40,52,45,68,66,49,52",
                         "endOffsets": "564,617,663,732,799,849,902"
+                    }
+                },
+                {
+                    "source": "D:\\Android_project\\Remember-english-Word\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "19",
+                        "endColumns": "66",
+                        "endOffsets": "81"
+                    },
+                    "to": {
+                        "startLines": "35",
+                        "startColumns": "4",
+                        "startOffsets": "1906",
+                        "endColumns": "65",
+                        "endOffsets": "1967"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Android_project\\Remember-english-Word\\app\\build\\intermediates\\res\\merged\\debug\\values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\Android_project\\Remember-english-Word\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "59",
+                        "endColumns": "57",
+                        "endOffsets": "112"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
                     }
                 }
             ]

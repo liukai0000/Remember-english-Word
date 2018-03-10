@@ -5,6 +5,7 @@ package com.example.rememberword;
 
 import com.firstpeople.wordlearn.dictmanager.DictManagerActivity;
 
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -33,18 +34,20 @@ public class Setting_Fragment extends Fragment{
 			Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		View view = inflater.inflate(R.layout.setting, container, false);
-		
-		Button dickManage = (Button)view.findViewById(R.id.dickManage);
-		dickManage.setOnClickListener(new OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				Intent i = new Intent();
-				i.setClass(mContext, DictManagerActivity.class);
-				mContext.startActivity(i);
-			}
-		});
+		Intent i = new Intent();
+		i.setClass(mContext, DictManagerActivity.class);
+		mContext.startActivity(i);
+//		Button dickManage = (Button)view.findViewById(R.id.dickManage);
+//		dickManage.setOnClickListener(new OnClickListener() {
+//
+//			@Override
+//			public void onClick(View v) {
+//				// TODO Auto-generated method stub
+//				Intent i = new Intent();
+//				i.setClass(mContext, DictManagerActivity.class);
+//				mContext.startActivity(i);
+//			}
+//		});
 		
 		return view;
 		

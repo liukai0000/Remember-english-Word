@@ -25,7 +25,7 @@ public class DictManagerActivity extends ListActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dictmanager);
-        this.setTitle("词库管理");
+        this.setTitle("设置");
         Log.e("aaaaaaaa", ""+Config.init().getCurrentUseTransDictName());
 
         showContent();

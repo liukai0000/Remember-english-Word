@@ -1,4 +1,4 @@
-#Sun Jan 21 10:25:46 CST 2018
-base.0=/home/liukai/Desktop/RememberWord-master/app/build/intermediates/transforms/dexMerger/debug/1
+#Sat Mar 10 10:10:58 CST 2018
+base.0=D\:\\Android_project\\Remember-english-Word\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+path.0=classes.dex
 renamed.0=classes.dex
-file.0=/home/liukai/Desktop/RememberWord-master/app/build/intermediates/transforms/dexMerger/debug/1/classes.dex

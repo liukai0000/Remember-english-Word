@@ -9,17 +9,15 @@ package com.example.rememberword;
 
 public final class R {
   public static final class drawable {
-    public static final int dictmanager_bg=0x7f010000;
-    public static final int dictmanager_icon_dictcode=0x7f010001;
-    public static final int dictmanager_icon_dictdownload=0x7f010002;
-    public static final int dictmanager_icon_dictpath=0x7f010003;
-    public static final int dictmanager_icon_dictransetup=0x7f010004;
-    public static final int dictmanager_icon_dictsetup=0x7f010005;
-    public static final int green=0x7f010006;
-    public static final int ic_action_search=0x7f010007;
-    public static final int ic_launcher=0x7f010008;
-    public static final int light_blue=0x7f010009;
-    public static final int star=0x7f01000a;
+    public static final int dictmanager_icon_dictcode=0x7f010000;
+    public static final int dictmanager_icon_dictdownload=0x7f010001;
+    public static final int dictmanager_icon_dictpath=0x7f010002;
+    public static final int dictmanager_icon_dictransetup=0x7f010003;
+    public static final int dictmanager_icon_dictsetup=0x7f010004;
+    public static final int ic_action_search=0x7f010005;
+    public static final int ic_launcher=0x7f010006;
+    public static final int light_blue=0x7f010007;
+    public static final int star=0x7f010008;
   }
   public static final class id {
     public static final int Page=0x7f020000;
@@ -28,25 +26,24 @@ public final class R {
     public static final int button3=0x7f020003;
     public static final int button4=0x7f020004;
     public static final int danci=0x7f020005;
-    public static final int dickManage=0x7f020006;
-    public static final int dictmanager_adapter_iv=0x7f020007;
-    public static final int dictmanager_adapter_tv_dis=0x7f020008;
-    public static final int dictmanager_adapter_tv_title=0x7f020009;
-    public static final int info=0x7f02000a;
-    public static final int jieshi=0x7f02000b;
-    public static final int knowWell=0x7f02000c;
-    public static final int ll=0x7f02000d;
-    public static final int menu_settings=0x7f02000e;
-    public static final int paraphrase=0x7f02000f;
-    public static final int phonogram=0x7f020010;
-    public static final int powerWeight=0x7f020011;
-    public static final int realtabcontent=0x7f020012;
-    public static final int rl=0x7f020013;
-    public static final int spinner1=0x7f020014;
-    public static final int start=0x7f020015;
-    public static final int textView1=0x7f020016;
-    public static final int word=0x7f020017;
-    public static final int yinbiao=0x7f020018;
+    public static final int dictmanager_adapter_iv=0x7f020006;
+    public static final int dictmanager_adapter_tv_dis=0x7f020007;
+    public static final int dictmanager_adapter_tv_title=0x7f020008;
+    public static final int info=0x7f020009;
+    public static final int jieshi=0x7f02000a;
+    public static final int knowWell=0x7f02000b;
+    public static final int ll=0x7f02000c;
+    public static final int menu_settings=0x7f02000d;
+    public static final int paraphrase=0x7f02000e;
+    public static final int phonogram=0x7f02000f;
+    public static final int powerWeight=0x7f020010;
+    public static final int realtabcontent=0x7f020011;
+    public static final int rl=0x7f020012;
+    public static final int spinner1=0x7f020013;
+    public static final int start=0x7f020014;
+    public static final int textView1=0x7f020015;
+    public static final int word=0x7f020016;
+    public static final int yinbiao=0x7f020017;
   }
   public static final class layout {
     public static final int activity_dictmanager=0x7f030000;

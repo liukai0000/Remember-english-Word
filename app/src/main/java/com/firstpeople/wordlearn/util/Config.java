@@ -46,12 +46,12 @@ public class Config {
     public static final int SPEECH_TTS = 1;
     public static final int SPEECH_REAL = 2;
 
-    private static final String SDCARD_PATH = "/sdcard/刀疤鸭背单词/";
-    public static final String SDCARD_SOUND_PATH = "/sdcard/刀疤鸭背单词/sound/";
-    private static final String SDCARD_STARDICT_PATH = "/sdcard/刀疤鸭背单词/stardict-dicts-all/";
-    private static final String SDCARD_BACKUP_PATH = "/sdcard/刀疤鸭背单词/backup/";
+    private static final String SDCARD_PATH = "/sdcard/Remberwords/";
+    public static final String SDCARD_SOUND_PATH = "/sdcard/Remberwords/sound/";
+    private static final String SDCARD_STARDICT_PATH = "/sdcard/Remberwords/stardict-dicts-all/";
+    private static final String SDCARD_BACKUP_PATH = "/sdcard/Remberwords/backup/";
 
-    public static final String SDCARD_SENTENCES_PATH = "/sdcard/刀疤鸭背单词/sentences/stardict-oxford-gb-formated-2.4.2/";
+    public static final String SDCARD_SENTENCES_PATH = "/sdcard/Remberwords/sentences/stardict-oxford-gb-formated-2.4.2/";
     public static final String SDCARD_SENTENCES_DICT_NAME = "oxford-gb-formated.ifo";
 
 
@@ -127,37 +127,37 @@ public class Config {
     public void initInstall() {
         if (isFirstRun()) {
             // 安装词库
-            String cet4File = "/sdcard/刀疤鸭背单词/大学英语四级.csv";
-            String cet6File = "/sdcard/刀疤鸭背单词/大学英语六级.csv";
-            String gaokaoFile = "/sdcard/刀疤鸭背单词/高考英语词汇.csv";
-            String tuofuFile = "/sdcard/刀疤鸭背单词/托福词汇.csv";
-            String yasiFile = "/sdcard/刀疤鸭背单词/雅思词汇.csv";
+            String cet4File = "/sdcard/Remberwords/大学英语四级.csv";
+            String cet6File = "/sdcard/Remberwords/大学英语六级.csv";
+            String gaokaoFile = "/sdcard/Remberwords/高考英语词汇.csv";
+            String tuofuFile = "/sdcard/Remberwords/托福词汇.csv";
+            String yasiFile = "/sdcard/Remberwords/雅思词汇.csv";
 
-            String primaryschool_1 = "/sdcard/刀疤鸭背单词/新版小学英语第1册.csv" ;
-            String primaryschool_2 = "/sdcard/刀疤鸭背单词/新版小学英语第2册.csv";
-            String primaryschool_3 = "/sdcard/刀疤鸭背单词/新版小学英语第3册.csv";
-            String primaryschool_4 = "/sdcard/刀疤鸭背单词/新版小学英语第4册.csv";
-            String primaryschool_5 = "/sdcard/刀疤鸭背单词/新版小学英语第5册.csv";
-            String primaryschool_6 = "/sdcard/刀疤鸭背单词/新版小学英语第6册.csv";
+            String primaryschool_1 = "/sdcard/Remberwords/新版小学英语第1册.csv" ;
+            String primaryschool_2 = "/sdcard/Remberwords/新版小学英语第2册.csv";
+            String primaryschool_3 = "/sdcard/Remberwords/新版小学英语第3册.csv";
+            String primaryschool_4 = "/sdcard/Remberwords/新版小学英语第4册.csv";
+            String primaryschool_5 = "/sdcard/Remberwords/新版小学英语第5册.csv";
+            String primaryschool_6 = "/sdcard/Remberwords/新版小学英语第6册.csv";
 
-            String middleschool_1= "/sdcard/刀疤鸭背单词/初中英语第1册.csv" ;
-            String middleschool_2= "/sdcard/刀疤鸭背单词/初中英语第2册.csv";
-            String middleschool_3= "/sdcard/刀疤鸭背单词/初中英语第3册.csv";
-            String middleschool_4= "/sdcard/刀疤鸭背单词/初中英语第4册.csv";
-            String middleschool_5= "/sdcard/刀疤鸭背单词/初中英语第5册.csv";
-            String middleschool_6= "/sdcard/刀疤鸭背单词/初中英语第6册.csv";
+            String middleschool_1= "/sdcard/Remberwords/初中英语第1册.csv" ;
+            String middleschool_2= "/sdcard/Remberwords/初中英语第2册.csv";
+            String middleschool_3= "/sdcard/Remberwords/初中英语第3册.csv";
+            String middleschool_4= "/sdcard/Remberwords/初中英语第4册.csv";
+            String middleschool_5= "/sdcard/Remberwords/初中英语第5册.csv";
+            String middleschool_6= "/sdcard/Remberwords/初中英语第6册.csv";
 
-            String seniorshool_1_1= "/sdcard/刀疤鸭背单词/新高中英语第1册上必修.csv" ;
-            String seniorshool_1_2= "/sdcard/刀疤鸭背单词/新高中英语第1册下必修.csv";
-            String seniorshool_2_1= "/sdcard/刀疤鸭背单词/新高中英语第2册上必修.csv";
-            String seniorshool_2_2= "/sdcard/刀疤鸭背单词/新高中英语第2册下必修.csv";
-            String seniorshool_3_1= "/sdcard/刀疤鸭背单词/新高中英语第3册上必修.csv";
-            String seniorshool_3_2= "/sdcard/刀疤鸭背单词/新高中英语第3册下必修.csv";
+            String seniorshool_1_1= "/sdcard/Remberwords/新高中英语第1册上必修.csv" ;
+            String seniorshool_1_2= "/sdcard/Remberwords/新高中英语第1册下必修.csv";
+            String seniorshool_2_1= "/sdcard/Remberwords/新高中英语第2册上必修.csv";
+            String seniorshool_2_2= "/sdcard/Remberwords/新高中英语第2册下必修.csv";
+            String seniorshool_3_1= "/sdcard/Remberwords/新高中英语第3册上必修.csv";
+            String seniorshool_3_2= "/sdcard/Remberwords/新高中英语第3册下必修.csv";
 
-            String  seniorshool_experiment_2_1= "/sdcard/刀疤鸭背单词/新高中英语第2册上实验.csv";
-            String  seniorshool_experiment_2_2= "/sdcard/刀疤鸭背单词/新高中英语第2册下实验.csv";
-            String  seniorshool_experiment_3_1= "/sdcard/刀疤鸭背单词/新高中英语第3册上实验.csv";
-            String  seniorshool_experiment_3_2= "/sdcard/刀疤鸭背单词/新高中英语第3册下实验.csv";
+            String  seniorshool_experiment_2_1= "/sdcard/Remberwords/新高中英语第2册上实验.csv";
+            String  seniorshool_experiment_2_2= "/sdcard/Remberwords/新高中英语第2册下实验.csv";
+            String  seniorshool_experiment_3_1= "/sdcard/Remberwords/新高中英语第3册上实验.csv";
+            String  seniorshool_experiment_3_2= "/sdcard/Remberwords/新高中英语第3册下实验.csv";
 
             //目录说明
 //                        String soundFile = SDCARD_SOUND_PATH + "读我.txt";

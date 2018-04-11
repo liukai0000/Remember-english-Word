@@ -54,45 +54,45 @@ public class MainActivity extends FragmentActivity {
         
         
         /***********************************************************************************************//*
-		if (checkSDCard()) {
-			if (Config.init().isFirstRun()) {
-				final ProgressDialog pd = new ProgressDialog(this);
-				pd.setTitle(getString(R.string.dialog_wait_title));
-				pd.setMessage(getString(R.string.dialog_wait_dis));
-				pd.setIcon(android.R.drawable.ic_dialog_info);
-				pd.setOnDismissListener(new OnDismissListener() {
-					@Override
-					public void onDismiss(DialogInterface arg0) {
-						Toast.makeText(mContext,
-								getString(R.string.dialog_wait_success),
-								Toast.LENGTH_LONG).show();
-					}
-				});
-				pd.show();
-				new Thread() {
-					@Override
-					public void run() {
-						Config.init().initInstall();// ³õÊ¼»¯Èí¼ş
-						pd.dismiss();
-					}
-				}.start();
-			}
-			else
-			{		
-				boolean isDictFileExist
-					=Utils.init().isExist(Config.init().getDictPath(Config.init().getCurrentUseTransDictName()))
-					&&Utils.init().isExist(Config.init().getDictPath(Config.init().getCurrentUseDictName()));
+// 		if (checkSDCard()) {
+// 			if (Config.init().isFirstRun()) {
+// 				final ProgressDialog pd = new ProgressDialog(this);
+// 				pd.setTitle(getString(R.string.dialog_wait_title));
+// 				pd.setMessage(getString(R.string.dialog_wait_dis));
+// 				pd.setIcon(android.R.drawable.ic_dialog_info);
+// 				pd.setOnDismissListener(new OnDismissListener() {
+// 					@Override
+// 					public void onDismiss(DialogInterface arg0) {
+// 						Toast.makeText(mContext,
+// 								getString(R.string.dialog_wait_success),
+// 								Toast.LENGTH_LONG).show();
+// 					}
+// 				});
+// 				pd.show();
+// 				new Thread() {
+// 					@Override
+// 					public void run() {
+// 						Config.init().initInstall();// åˆå§‹åŒ–è½¯ä»¶
+// 						pd.dismiss();
+// 					}
+// 				}.start();
+// 			}
+// 			else
+// 			{		
+// 				boolean isDictFileExist
+// 					=Utils.init().isExist(Config.init().getDictPath(Config.init().getCurrentUseTransDictName()))
+// 					&&Utils.init().isExist(Config.init().getDictPath(Config.init().getCurrentUseDictName()));
 
-	            if(!isDictFileExist)
-	                {
-		               	Toast.makeText(this, "ÄúµÄ´ÊµäÎÄ¼şÔâµ½»Ù»µ£¬ÇëÖØÖÃÏµÍ³£¡", Toast.LENGTH_SHORT).show();                   
-	                }
-			}
-		} else {
-			Toast.makeText(mContext, "ÇëÄú¼ì²ésdCard°²×°ÊÇ·ñÕıÈ·£¡", Toast.LENGTH_LONG)
-					.show();
-			finish();
-		}
+// 	            if(!isDictFileExist)
+// 	                {
+// 		               	Toast.makeText(this, "æ‚¨çš„è¯å…¸æ–‡ä»¶é­åˆ°æ¯åï¼Œè¯·é‡ç½®ç³»ç»Ÿï¼", Toast.LENGTH_SHORT).show();                   
+// 	                }
+// 			}
+// 		} else {
+// 			Toast.makeText(mContext, "è¯·æ‚¨æ£€æŸ¥sdCardå®‰è£…æ˜¯å¦æ­£ç¡®ï¼", Toast.LENGTH_LONG)
+// 					.show();
+// 			finish();
+// 		}
 		*//***********************************************************************************************/
                 
         setContentView(R.layout.activity_tab);
@@ -101,13 +101,13 @@ public class MainActivity extends FragmentActivity {
 
         mTabManager = new TabManager(this, mTabHost, R.id.realtabcontent);
 
-        mTabManager.addTab(mTabHost.newTabSpec("Éú´Ê±¾").setIndicator("Éú´Ê±¾"),
+        mTabManager.addTab(mTabHost.newTabSpec("ç”Ÿè¯æœ¬").setIndicator("ç”Ÿè¯æœ¬"),
         		WordsNote_Fragment.class, null);
-        mTabManager.addTab(mTabHost.newTabSpec("ÒÑÕÆÎÕ").setIndicator("ÒÑÕÆÎÕ"),
+        mTabManager.addTab(mTabHost.newTabSpec("å·²æŒæ¡").setIndicator("å·²æŒæ¡"),
         		KnowWell_Fragment.class, null);
-        mTabManager.addTab(mTabHost.newTabSpec("È«ÎÄ").setIndicator("È«ÎÄ"),
+        mTabManager.addTab(mTabHost.newTabSpec("å…¨æ–‡").setIndicator("å…¨æ–‡"),
         		AllWords_Fragment.class, null);
-        mTabManager.addTab(mTabHost.newTabSpec("ÉèÖÃ").setIndicator("ÉèÖÃ"),
+        mTabManager.addTab(mTabHost.newTabSpec("è®¾ç½®").setIndicator("è®¾ç½®"),
         		Setting_Fragment.class, null);
         
         
@@ -212,19 +212,19 @@ public class MainActivity extends FragmentActivity {
             if (mLastTab != newTab) {
             	Log.d("TabActivity------------onTabChanged------->","There is a new tab coming");
                 FragmentTransaction ft = mActivity.getSupportFragmentManager().beginTransaction();
-                if (mLastTab != null) {						//Ğ¶ÔØ¾Étab
+                if (mLastTab != null) {						//å¸è½½æ—§tab
                     if (mLastTab.fragment != null) {
                         ft.detach(mLastTab.fragment);
                     }
                 }
-                if (newTab != null) {						//×°ÔØĞÂtab
-                    if (newTab.fragment == null) {			//Èç¹ûĞÂtabµÄfragment»¹Ã»ÓĞ´´½¨
+                if (newTab != null) {						//è£…è½½æ–°tab
+                    if (newTab.fragment == null) {			//å¦‚æœæ–°tabçš„fragmentè¿˜æ²¡æœ‰åˆ›å»º
                         
                     	Log.d("TabActivity------------onTabChanged------->","The new tab"+ tabId +" has no fragment ,create it");
                     	newTab.fragment = Fragment.instantiate(mActivity,
                                 newTab.clss.getName(), newTab.args);
                         ft.add(mContainerId, newTab.fragment, newTab.tag);
-                    } else {								//Èç¹ûĞÂtabµÄfragmentÒÑ¾­´´½¨
+                    } else {								//å¦‚æœæ–°tabçš„fragmentå·²ç»åˆ›å»º
                     	Log.d("TabActivity------------onTabChanged------->","The new tab"+ tabId +" has got fragment ,attached it");
                         ft.attach(newTab.fragment);
                     }
@@ -257,7 +257,7 @@ public class MainActivity extends FragmentActivity {
 				new Thread() {
 					@Override
 					public void run() {
-						Config.init().initInstall();// ³õÊ¼»¯Èí¼ş
+						Config.init().initInstall();// åˆå§‹åŒ–è½¯ä»¶
 						pd.dismiss();
 					}
 				}.start();
@@ -270,11 +270,11 @@ public class MainActivity extends FragmentActivity {
 
 	            if(!isDictFileExist)
 	                {
-		               	Toast.makeText(this, "ÄúµÄ´ÊµäÎÄ¼şÔâµ½»Ù»µ£¬ÇëÖØÖÃÏµÍ³£¡", Toast.LENGTH_SHORT).show();                   
+		               	Toast.makeText(this, "æ‚¨çš„è¯å…¸æ–‡ä»¶é­åˆ°æ¯åï¼Œè¯·é‡ç½®ç³»ç»Ÿï¼", Toast.LENGTH_SHORT).show();                   
 	                }
 			}
 		} else {
-			Toast.makeText(mContext, "ÇëÄú¼ì²ésdCard°²×°ÊÇ·ñÕıÈ·£¡", Toast.LENGTH_LONG)
+			Toast.makeText(mContext, "è¯·æ‚¨æ£€æŸ¥sdCardå®‰è£…æ˜¯å¦æ­£ç¡®ï¼", Toast.LENGTH_LONG)
 					.show();
 			finish();
 		}
